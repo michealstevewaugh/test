@@ -20,4 +20,6 @@ git clone <repo_url>
 git add <file_name>
 git commit -m “any command”
 git push -u origin main(branch_name)
+
 ```
+![Banner] (/home/ubuntu/Pictures/Screenshots/Screenshot from 2024-03-28 16-10-29.png)
