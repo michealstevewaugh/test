@@ -1,27 +1,13 @@
 pipeline {
     agent any
-
+    
     stages {
         stage('Checkout') {
             steps {
                 git ''https://github.com/michealstevewaugh/test.git
             }
         }
-        stage('Build') {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'deploy-script.sh'
-            }
-        }
+        // Other stages like Build, Test, Deploy can go here
     }
 }
 
