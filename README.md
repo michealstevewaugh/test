@@ -22,4 +22,4 @@ git commit -m “any command”
 git push -u origin main(branch_name)
 
 ```
-[!(Screenshot from 2024-03-28 16-10-29.png)}
+[!(Screenshot from 2024-03-28 16-10-29.png)]
